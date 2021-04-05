@@ -101,3 +101,11 @@ hr {
 footer .lead {
   text-transform: lowercase !important;
 }
+footer .fab {
+  margin: 0 8px;
+  color: white;
+}
+
+footer .fab:hover {
+  box-shadow: 2px 3px 8px 10px rgba(174, 17, 51);
+}
