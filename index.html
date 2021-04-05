@@ -30,24 +30,27 @@
 
 </head>
 
-<div>
+<body data-spy="scroll" data-target="#myMenu">
+
+
        <div id="home">
-              <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+              <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+                     <a href="" class="navbar-brand"><img src="img/logo.png" alt="" class="ml-5"></a>
                      <button class="navbar-toggler" data-toggle="collapse" type="button" data-target="#myMenu">
                             <span class="navbar-toggler-icon"></span>
                      </button>
                      <div class="collapse navbar-collapse" id="myMenu">
                             <ul class="navbar-nav mx-auto">
-                                   <li class="nav-item"><a href="" class="nav-link">Home</a></li>
-                                   <li class="nav-item"><a href="" class="nav-link">Course</a></li>
-                                   <li class="nav-item"><a href="" class="nav-link">Portfolio</a></li>
-                                   <li class="nav-item"><a href="" class="nav-link">Team</a></li>
-                                   <li class="nav-item"><a href="" class="nav-link">Contact</a></li>
+                                   <li class="nav-item "><a href="#home" class="nav-link active ">Home</a></li>
+                                   <li class="nav-item"><a href="#about" class="nav-link">about</a></li>
+                                   <li class="nav-item"><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                                   <li class="nav-item"><a href="#team" class="nav-link">Team</a></li>
+                                   <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
                             </ul>
                      </div>
               </nav>
        </div>
-       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carouse">
               <ol class="carousel-indicators">
                      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -88,7 +91,7 @@
        <!--______________________** home end** ________________________________________ -->
        <!-- _____________________**about end **_________________________________________ -->
        <div id="about">
-              <div class="container my-5">
+              <div class="container my-5 mt-5">
                      <div class="row">
                             <div class="col-12 text-center">
                                    <h5>Bootstrap Theme Course</h5>
@@ -145,7 +148,8 @@
                      <div class="row">
                             <div class="col-12 text-center">
                                    <h5>Want To develope BOOtsrap 4 theme </h5>
-                                   <a href="" class="btn btn-outline-dark btn-lg mt-4 port">My bootstrap course</a>
+                                   <a href="" class="btn btn-outline-dark btn-lg mt-4 port">My bootstrap
+                                          course</a>
                             </div>
                      </div>
               </div>
@@ -168,7 +172,8 @@
                                           <img class="card-img-top" src="img/team1.png" alt="Card image cap">
                                           <div class="card-body text-center">
                                                  <h5 class="card-title">Jessica Smith</h5>
-                                                 <p class="card-text pb-3 lead">Lorem ipsum dolor sit amet consectetur
+                                                 <p class="card-text pb-3 lead">Lorem ipsum dolor sit amet
+                                                        consectetur
                                                         adipisicing
                                                         elitbbb Pariatur, nisi eligendi quod iste fugiat.</p>
                                           </div>
@@ -179,7 +184,8 @@
                                           <img class="card-img-top" src="img/team2.png" alt="Card image cap">
                                           <div class="card-body text-center">
                                                  <h5 class="card-title ">Jhon Doe</h5>
-                                                 <p class="card-text pb-3 lead">Lorem ipsum dolor sit amet consectetur
+                                                 <p class="card-text pb-3 lead">Lorem ipsum dolor sit amet
+                                                        consectetur
                                                         adipisicing
                                                         elit. Dolorum, nesciunt? Accusantium, quo</p>
                                           </div>
@@ -197,31 +203,36 @@
 
        <!-- footer start  -->
 
-       <footer>
-              <div class="container-fluid text-white bg-dark">
-                     <div class="row justify-content-center">
-                            <div class="col-5 text-center  mt-4">
-                                   <a href="" class="img"> <img src="img/nest.png" alt=""
-                                                 class="d-block mx-auto w-25"></a>
-                                   <p class="lead">
-                                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, modi
-                                          consequatur. Hic voluptas asperiores, eum ut voluptates eius assumenda,
-                                          a necessitatibus reiciendis ullam ad!
-                                   </p>
 
+       <div id="contact">
+
+              <footer>
+                     <div class="container-fluid text-white bg-dark">
+                            <div class="row justify-content-center">
+                                   <div class="col-md-5 text-center  mt-4">
+                                          <a href="" class="img"> <img src="img/nest.png" alt=""
+                                                        class="d-block mx-auto w-25"></a>
+                                          <p class="lead">
+                                                 At our core is collection of design and development solutions that
+                                                 everything your business need to compate in the modern market place
+                                          </p>
+
+                                   </div>
+                            </div>
+                            <div class="row justify-content-center  ">
+                                   <div class="col-12 text-center  my-3">
+                                          <p><strong>Contact Us</strong></p>
+                                          <br>
+                                          <a href=""><i class="fab fa-facebook-square fa-2x " title="facebook"></i></a>
+                                          <a href=""><i class="fab fa-twitter-square  fa-2x " title="facebook"></i></a>
+                                          <a href=""><i class="fab fa-instagram-square  fa-2x "
+                                                        title="facebook"></i></a>
+                                          <a href=""><i class="fab fa-youtube-square  fa-2x" title="facebook"></i></a>
+                                   </div>
                             </div>
                      </div>
-                     <div class="row justify-content-center  ">
-                            <div class="col-6 text-center  my-3">
-                                   <p><strong>Contact Us</strong></p>
-                                   <a href=""><i class="fab fa-facebook-square fa-2x " title="facebook"></i></a>
-                                   <a href=""><i class="fab fa-twitter-square  fa-2x " title="facebook"></i></a>
-                                   <a href=""><i class="fab fa-instagram-square  fa-2x " title="facebook"></i></a>
-                                   <a href=""><i class="fab fa-youtube-square  fa-2x" title="facebook"></i></a>
-                            </div>
-                     </div>
-              </div>
-       </footer>
+              </footer>
+       </div>
 
 
        <!-- footer end  -->
@@ -240,6 +251,6 @@
        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
               integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
               crossorigin="anonymous"></script>
-       </body>
+</body>
 
 </html>
